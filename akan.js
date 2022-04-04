@@ -38,7 +38,7 @@ function processFormData(){
 
     
 
-    document.getElementById('displayName').innerHTML ='<div class="alert alert-primary" role="alert"> Your date of birth:'+birthDate+' and your gender is:'+gender+'</div>'
+    document.getElementById('displayName').innerHTML ='<div class="alert alert-primary" role="alert"> Congratulations!!! <br> Your Akan Name is: <span class="text-danger">'+akanName+'</span> you are a <span class="text-danger">'+gender+'</span> born on a <span class="text-danger">'+dayName+'</span> </div>'
 }
 
     
